@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Cliente</title>
+		<link rel="stylesheet" type="text/css" href="css.css" media="screen">
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<script src="Js/cliente.js" language="JavaScript1.2"></script>	
+	</head>
+	
+	<body>
+		<section>			
+		<form id="dat"  onsubmit="datos('nombre','suministro','POS','Alergia')">	 	
+		<font color="white">
+		<font size=15>
+		MEDICAMENTOS
+		</font>
+		<font size=6>
+		<table BORDER=4>
+		
+		
+		<td>Nombre medicamento</td>
+		<td>
+		<input type='text' name='nombre' >
+		</td>
+		</tr>
+		<tr>
+		<td>Suministro</td>
+		<td>
+		<input type='int' name='suministro' >
+		</td>
+		</tr>
+		
+		<tr>
+		<td>¿Alergico? SI/NO</td>
+		<td>
+		<input type='text' name='Alergia' >
+		</td>
+		</tr>
+		
+		<tr>
+		<td>Estado</td>
+		<td>
+		Pos: <input type="radio" name="POS" value="POS">
+		<br>NoPos: <input type="radio" name="POS"  value="NOPOS">
+		</td>
+		</tr>
+
+
+		</select>
+		</table>
+		</font>
+		</font>
+		<input type="submit" value="Enviar" /> 
+		</form>		
+		</section>	
+	</body>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>ADMINISTRADOR</title>
+		<link rel="stylesheet" type="text/css" href="css.css" media="screen">
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<script src="Js/admin.js" language="JavaScript1.2"></script>	
+	</head>
+	
+	<body>
+		<section>			
+		<form id="dat"  onsubmit="datos('nombre','suministro','Presentacion','Administracion','Tipo','Cuerpo','POS','Descripcion','Laboratorio')">	 	
+		<font color="white">
+		<font size=15>
+		INSERTAR MEDICAMENTO 
+		</font>
+		<font size=6>
+		<table BORDER=4>
+		
+		
+		<td>Nombre medicamento</td>
+		<td>
+		<input type='text' name='nombre' >
+		</td>
+		</tr>
+		<tr>
+		<td>Suministro</td>
+		<td>
+		<input type='text' name='suministro' >
+		</td>
+		</tr>
+
+		<tr>
+		<td>Presentacion</td>
+		<td>
+		<input type='text' name='Presentacion' >
+		</td>
+		</tr>	
+
+		<tr>
+		<td>Administracion</td>
+		<td>
+		<input type='text' name='Administracion' >
+		</td>
+		</tr>
+
+		<tr>
+		<td>Tipo</td>
+		<td>
+		<input type='text' name='Tipo' >
+		</td>
+		</tr>
+
+		<tr>
+		<td>Parte del cuerpo</td>
+		<td>
+		<input type='text' name='Cuerpo' >
+		</td>
+		</tr>
+
+		<tr>
+		<td>POS/NO_POS</td>
+		<td>
+		<input type='text' name='POS' >
+		</td>
+		</tr>
+		
+		<tr>
+		<td>Descripcion</td>
+		<td>
+		<input type='text' name='Descripcion' >
+		</td>
+		</tr>
+
+		<td>Laboratorio</td>
+		<td>
+		<input type='text' name='Laboratorio' >
+		</td>
+		</tr>
+		
+
+		</select>
+		</table>
+		</font>
+		</font>
+		<input type="submit" value="Enviar" /> 
+		</form>		
+		</section>	
+	</body>
